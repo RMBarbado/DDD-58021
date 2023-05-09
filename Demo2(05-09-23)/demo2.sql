@@ -3,7 +3,7 @@ CREATE TABLE Customer (CustomerID INT NOT NULL,
 CustomerName VARCHAR(24) NOT NULL, 
 Municipality VARCHAR(24) NOT NULL, 
 City VARCHAR(24) NOT NULL,
-PRIMARY KEY(CustomerId));
+PRIMARY KEY(CustomerID));
 INSERT INTO Customer(CustomerID, CustomerName, Municipality, City) 
 VALUES(1, 'Gina de Leon', 'Apalit', 'Pampanga'),
 (2, 'Amara Luna', 'Mexico', 'Pampanga'),
